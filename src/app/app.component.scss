@@ -1,0 +1,20 @@
+nav{
+    background-color: var(--primary);
+    color: var(--primary-text);
+    padding: 5px 25px;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+    ul{
+        list-style-position: outside;
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        margin: 0;
+    }
+}
+main{
+    min-height: 100vh;
+    padding-top: 80px;
+}
